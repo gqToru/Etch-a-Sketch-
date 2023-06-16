@@ -1,11 +1,17 @@
 .container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .gridColor {
   background-color: red;
   width: 50px;
   height: 50px;
-  margin: 5px;
-  flex: 4;
+  flex-basis: 60px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.gridColor:hover {
+  background-color: green;
 }
