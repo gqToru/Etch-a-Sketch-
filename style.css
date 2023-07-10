@@ -1,17 +1,13 @@
-.container {
+.grid-container {
   display: flex;
   flex-wrap: wrap;
+  width: 400px;
 }
 
-.gridColor {
+.grid-item {
   background-color: red;
-  width: 50px;
-  height: 50px;
-  flex-basis: 60px;
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-
-.gridColor:hover {
-  background-color: green;
+  height: 40px;
+  flex-basis: 6.25%;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
