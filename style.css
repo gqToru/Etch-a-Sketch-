@@ -1,12 +1,20 @@
+body {
+  background-color: rgb(60, 74, 100);
+}
+
 .grid-container {
   display: flex;
   flex-wrap: wrap;
 }
 
 .grid-item {
-  background-color: red;
+  background-color: white;
   height: 40px;
   flex-basis: 6.25%;
-  border: 1px solid black;
+  border: 1px solid grey;
   box-sizing: border-box;
+}
+
+.markedTile {
+  background-color: black;
 }
